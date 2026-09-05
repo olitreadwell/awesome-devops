@@ -25,7 +25,7 @@
 - For a dead-link fix there is no issue to attach to; treat as a self-found gap (repo-audit, Docs dimension).
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- 2026-09-05 self-found dead links (Cirrus CI, Merlinn) — outcome: pr-opened — README.md links were dead; deduped: no upstream issue/PR touched these lines.
+- 2026-09-05 self-found dead links (Cirrus CI org->com, Merlinn repo 404) — outcome: pr-opened (#1 https://github.com/olitreadwell/awesome-devops/pull/1) — README.md links were dead; deduped: no upstream issue/PR touched these lines.
 
 ## Mined gaps (discovered, not yet attempted)
 - 2026-09-05 docs: README.md "Continuous Integration & Delivery -> Public Services" `https://cirrus-ci.org/` fails DNS (SERVFAIL via dns.google); canonical live URL is `https://cirrus-ci.com/` (resolves, Wayback 200 on 2026-05-23; project's own repos reference it). — status: fixed (link swapped).
